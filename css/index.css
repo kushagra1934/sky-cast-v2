@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #86c0ff;
+  background-color: #4a79aa;
 }
 
 body,
@@ -31,15 +31,15 @@ ul {
 /* Style the company logo */
 .logo a {
   text-decoration: none;
-  color: white;
-  font-weight: bold;
+  color: rgb(252, 252, 252);
+  font-weight: 900;
   font-size: 20px;
   margin-left: 20px;
 }
 
 /* Style the navigation menu for larger screens */
 .menu {
-  list-style: none;
+  list-style: circle;
   display: flex;
 }
 
@@ -106,6 +106,7 @@ ul {
 }
 
 .search-bar input {
+  text-align: center;
   width: 300px;
   margin-top: 10px;
   margin-right: 10px;
@@ -121,6 +122,12 @@ ul {
 
 .search-bar button img {
   width: 20px;
+  padding-left: 3.5px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  padding-right: 4px;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-bar button {
@@ -551,13 +558,14 @@ ul {
 
 #contact-us{
   width: auto;
-  height: 100vh;
+  height: 130vh;
   display: flex;
   color: #fff;
 }
 
 #contact-us h2{
   padding: 20px;
+  font-weight: bolder;
   margin: 20px;
 }
 
